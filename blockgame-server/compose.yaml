@@ -1,0 +1,19 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    environment:
+      EULA: "TRUE"
+      # TYPE: PAPER
+      VERSION: "1.21.11"
+      MEMORY: 4G
+      ONLINE_MODE: "FALSE"
+      ENFORCE_SECURE_PROFILE: "FALSE"
+      UID: 1124200035
+      GID: 1124200035
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

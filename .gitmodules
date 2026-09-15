@@ -1,0 +1,9 @@
+[submodule "Optimus-3"]
+	path = reference_code/Optimus-3
+	url = https://github.com/JiuTian-VL/Optimus-3.git
+[submodule "Voyager"]
+	path = reference_code/Voyager
+	url = https://github.com/MineDojo/Voyager
+[submodule "mindcraft"]
+	path = reference_code/mindcraft
+	url = https://github.com/mindcraft-bots/mindcraft.git

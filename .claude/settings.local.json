@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bun run:*)",
+      "Bash(npx tsc:*)",
+      "Bash(sort:*)",
+      "Bash(ls -lhS /Users/aviyadava/minecraft-server/logs/*.jsonl /Users/aviyadava/minecraft-server/logs/*.log)"
+    ]
+  }
+}
